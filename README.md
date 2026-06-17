@@ -1,7 +1,7 @@
 # BankaApp 🏦
 
 Application mobile de simulation bancaire — TP React Native / Expo  
-Université Abdelmalek Essaâdi, Tanger · Prof. Zili · Cycle Ingénieur 2025-2026
+Université Abdelmalek Essaâdi, FST Tanger · Prof. Zili · Cycle Ingénieur 2025-2026
 
 ---
 
@@ -146,16 +146,9 @@ Passer l'objet `account` complet dans les `params` de navigation serait une **co
 ### 4. `KeyboardAvoidingView`
 Ce composant résout un problème typique du mobile : lorsque le clavier virtuel s'ouvre, il peut masquer les `TextInput` ou le bouton "Valider" situés en bas de l'écran. `KeyboardAvoidingView` compense automatiquement en ajustant la hauteur ou le padding du contenu (`behavior="padding"` sur iOS, `behavior="height"` sur Android, car les deux systèmes gèrent le clavier différemment via `Platform.OS`). Sans lui, l'utilisateur ne peut pas voir ni taper dans les champs recouverts par le clavier.
 
----
-
-## 📱 Captures d'écran
-
-*(À ajouter après test sur Expo Go)*
-
----
 
 ## 👤 Auteur
 
-TP réalisé par : **[Votre Nom]**  
-Module : React Native / Expo  
-Université Abdelmalek Essaâdi — Tanger
+TP réalisé par : **RAHELIARISOA Andriamasy Lorraine Agnès**  
+Module : Programmation des Applications Mobile (Native / Hybride) 
+Université Abdelmalek Essaâdi — FST Tanger
