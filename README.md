@@ -150,5 +150,4 @@ Ce composant résout un problème typique du mobile : lorsque le clavier virtuel
 ## 👤 Auteur
 
 TP réalisé par : **RAHELIARISOA Andriamasy Lorraine Agnès**  
-Module : Programmation des applications mobiles (Native / Hybride) 
-Université Abdelmalek Essaâdi — FST Tanger
+Module : Programmation des applications mobiles (Native / Hybride) - Université Abdelmalek Essaâdi — FST Tanger
