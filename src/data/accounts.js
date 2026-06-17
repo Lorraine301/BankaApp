@@ -1,0 +1,81 @@
+export const initialAccounts = [
+  {
+    id: 'ACC001',
+    label: 'Compte Courant',
+    owner: 'Amira Benali',
+    iban: 'MA64 0011 2000 0100 1395 8000 467',
+    balance: 12500.00,
+    type: 'courant',
+    transactions: [
+      {
+        id: 'T001',
+        type: 'credit',
+        amount: 5000,
+        label: 'Salaire Octobre',
+        date: '01/10/2026',
+      },
+      {
+        id: 'T002',
+        type: 'debit',
+        amount: 1200,
+        label: 'Loyer Appartement',
+        date: '05/10/2026',
+      },
+      {
+        id: 'T003',
+        type: 'virement_entrant',
+        amount: 2000,
+        label: 'Virement de Compte Epargne',
+        date: '10/10/2026',
+      },
+    ],
+  },
+  {
+    id: 'ACC002',
+    label: 'Compte Epargne',
+    owner: 'Amira Benali',
+    iban: 'MA64 0011 2000 0100 1395 8000 891',
+    balance: 45000.00,
+    type: 'epargne',
+    transactions: [
+      {
+        id: 'T004',
+        type: 'credit',
+        amount: 10000,
+        label: 'Depot initial',
+        date: '15/09/2026',
+      },
+      {
+        id: 'T005',
+        type: 'virement_sortant',
+        amount: 2000,
+        label: 'Virement vers Compte Courant',
+        date: '10/10/2026',
+      },
+    ],
+  },
+  {
+    id: 'ACC003',
+    label: 'Compte Professionnel',
+    owner: 'Amira Benali',
+    iban: 'MA64 0011 2000 0100 1395 8000 312',
+    balance: 8300.00,
+    type: 'professionnel',
+    transactions: [
+      {
+        id: 'T006',
+        type: 'credit',
+        amount: 15000,
+        label: 'Honoraires Projet Alpha',
+        date: '20/09/2026',
+      },
+      {
+        id: 'T007',
+        type: 'debit',
+        amount: 3500,
+        label: 'Achat Materiel Informatique',
+        date: '25/09/2026',
+      },
+    ],
+  },
+];
